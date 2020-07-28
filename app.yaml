@@ -14,8 +14,8 @@ network:
 automatic_scaling:
   max_num_instances: 2
 env_variables:
-  ROOT_URL: https://meteor-template-deploy.wl.r.appspot.com
-  MONGO_URL: mongodb+srv://arslanr:Das_1090@cluster0.rbdff.mongodb.net/Cluster0?retryWrites=true&w=majority
+  ROOT_URL: https://yourAppName.appspot.com
+  MONGO_URL: 
   MAIL_URL:
 skip_files:
   - ^(.*/)?\.dockerignore$
